@@ -1,0 +1,107 @@
+
+.ol-popup {
+    position: absolute;
+    background-color: rgb(171, 74, 74);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    display: block;
+    z-index: 1000;
+}
+
+.ol-popup:empty {
+    display: none; /* Hide popup if it has no content */
+}
+
+.ol-popup:after, .ol-popup:before {
+    top: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.ol-popup:after {
+    border-top-color: white;
+    border-width: 10px;
+    left: 50%;
+    margin-left: -10px;
+}
+
+.ol-popup:before {
+    border-top-color: rgba(0, 0, 0, 0.2);
+    border-width: 11px;
+    left: 50%;
+    margin-left: -11px;
+}
+.ol-popup button {
+    margin-right: 5px; /* Add margin between buttons */
+    padding: 5px 10px; /* Adjust padding to make buttons smaller */
+    font-size: 14px; /* Adjust font size */
+}
+/* OpenLayersMap.css */
+
+.button-small {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+.side-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(229, 52, 52, 0.1);
+    z-index: 1000; /* Ensure the side nav is above the map */
+}
+
+.nav-item input, select{
+    margin-bottom: 20px;
+    width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.map-container {
+    margin-left: 250px; /* Adjust margin to accommodate the side nav width */
+    width: calc(100% - 250px); /* Adjust map container width to fit the remaining space */
+    height: 100vh; /* Set map container height to full viewport height */
+}
+
+.addbuttons, a {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+label{
+    margin-bottom: 5px;
+    display: block;
+
+}
+
+.toast-message {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 999;
+  }
+  

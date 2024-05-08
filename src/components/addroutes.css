@@ -1,0 +1,84 @@
+
+.map-container {
+    display: flex;
+   
+  }
+  
+  .maps {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  .map-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.route {
+    margin-bottom: 20px;
+    line-height: 2;
+}
+
+.route div {
+    margin-bottom: 10px;
+}
+
+
+
+.point {
+    margin-bottom: 10px;
+}
+
+.add-point {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.remove-route,
+.remove-point {
+    margin-left: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-route,
+.open-maps {
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.map-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.maps {
+    width: 70%;
+}
+
+.instructions {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    width: 25%;
+    margin-left: 20px;
+}
+
+.instructions h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.instructions p {
+    margin-bottom: 10px;
+}

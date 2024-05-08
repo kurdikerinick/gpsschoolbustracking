@@ -1,0 +1,65 @@
+
+
+.update-bus-routes{
+    display: flex;
+}
+.update-bus-container{
+    width: 500px;
+  margin: 0 auto;
+ 
+  height: 50%;
+  margin-top: 5%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+.select-label {
+    margin-bottom: 8px;
+  }
+  
+  .select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fff;
+  }
+  
+  .option-item {
+    font-size: 16px;
+  }
+  .update-bus-routes select {
+    margin-bottom: 20px;
+    width: 70%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .toast-message {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 999;
+  }
+  
